@@ -3,11 +3,8 @@ import discord
 terminator = discord.Client()
 token = "bot token inside here"
 
-# channels not to leave: down here
-whitelist = [
-    775232281954353183,
-    841202740507181106
-]
+# servers not to leave: down here
+whitelist = []
 
 
 @terminator.event
